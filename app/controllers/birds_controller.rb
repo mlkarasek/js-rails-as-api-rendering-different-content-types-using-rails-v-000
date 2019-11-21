@@ -1,7 +1,12 @@
-class BirdsController < ApplicationController
-  def index
-    @birds = Bird.all
-    # render 'birds/index.html.erb'
-    render json: { birds: @birds, messages: ['Hello Birds', 'Goodbye Birds']}
-  end
-end
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>This HTML file isn't part of the Rails app. It is here to help you test JS against Rails as you follow along.</div>
+</body>
+</html>
